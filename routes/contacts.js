@@ -8,8 +8,8 @@ const Contact = require('../models/Contact');
 
 
 
-// @route GET api/contacts
-// @desc Get all users contacts
+// @route GET api/contact
+// @desc Get all users contact
 // @access Private
 router.get('/', auth, async (req, res) => {
     try {
@@ -20,8 +20,8 @@ router.get('/', auth, async (req, res) => {
         res.status(500).send('Server Error');
     }
 });
-// @route POST api/contacts
-// @desc  Add new contacts
+// @route POST api/contact
+// @desc  Add new contact
 // @access Private
 router.post('/', [auth, [
     check('name', 'Name is required').not().isEmpty()
@@ -51,7 +51,7 @@ router.post('/', [auth, [
         res.status(500).send('Server Error');
     }
 });
-// @route PUT api/contacts/:id
+// @route PUT api/contact/:id
 // @desc Update contact
 // @access Private
 router.put('/:id', auth, async (req, res) => {
@@ -85,7 +85,7 @@ router.put('/:id', auth, async (req, res) => {
     }
 
 });
-// @route DELETE api/contacts
+// @route DELETE api/contact
 // @desc Delete contact
 // @access Private
 router.delete('/:id', auth, async (req, res) => {
