@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14a0a84-f362-476f-9f1f-f7c0bdec0e6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579637631830</updated>
-      <workItem from="1579637634030" duration="10794000" />
+      <workItem from="1579637634030" duration="12026000" />
     </task>
     <task id="LOCAL-00001" summary="adds .idea to gitignore">
       <created>1579641020190</created>
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579653237161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creates Json webtoken and authenticates the routes">
+      <created>1579655309274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579655309274</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +120,7 @@
     <MESSAGE value="adds .idea to gitignore" />
     <MESSAGE value="Creates database file, user file, config folder, and integrates routes in the application" />
     <MESSAGE value="Integrates hash passwords and the register route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrates hash passwords and the register route" />
+    <MESSAGE value="Creates Json webtoken and authenticates the routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creates Json webtoken and authenticates the routes" />
   </component>
 </project>
