@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14a0a84-f362-476f-9f1f-f7c0bdec0e6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/context/auth/AuthState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/auth/authContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/context/auth/authReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/types.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +79,7 @@
       <updated>1579637631830</updated>
       <workItem from="1579637634030" duration="12102000" />
       <workItem from="1579723437783" duration="11686000" />
-      <workItem from="1579890959234" duration="7000000" />
+      <workItem from="1579890959234" duration="8015000" />
     </task>
     <task id="LOCAL-00001" summary="adds .idea to gitignore">
       <created>1579641020190</created>
@@ -210,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579901946054</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Adds fade in-out animation for contacts">
+      <created>1579902596164</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1579902596164</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +261,7 @@
     <MESSAGE value="Implemented edit and clear functionality to contacts and contacts form" />
     <MESSAGE value="Implemented edit, clear, set, update functionality to contacts and contacts form" />
     <MESSAGE value="Implements filter for contacts home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implements filter for contacts home page" />
+    <MESSAGE value="Adds fade in-out animation for contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds fade in-out animation for contacts" />
   </component>
 </project>
