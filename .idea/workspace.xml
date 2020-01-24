@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14a0a84-f362-476f-9f1f-f7c0bdec0e6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/contact/contactContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/types.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/contacts/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579637631830</updated>
       <workItem from="1579637634030" duration="12102000" />
-      <workItem from="1579723437783" duration="11051000" />
+      <workItem from="1579723437783" duration="11686000" />
+      <workItem from="1579890959234" duration="4955000" />
     </task>
     <task id="LOCAL-00001" summary="adds .idea to gitignore">
       <created>1579641020190</created>
@@ -148,7 +142,63 @@
       <option name="project" value="LOCAL" />
       <updated>1579733230846</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Styled contact pages">
+      <created>1579737053537</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1579737053537</updated>
+    </task>
+    <task id="LOCAL-00011" summary="basic additions to gitignore">
+      <created>1579897467540</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579897467541</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Integrates a form for adding contacts to the home page">
+      <created>1579897489701</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579897489701</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implementes a contactReducer file">
+      <created>1579897507954</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579897507954</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Integrated addContact function to the contact state file">
+      <created>1579897530694</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579897530694</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Imports contactForm to home file">
+      <created>1579897547750</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579897547750</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Integrated Delete functionality for contacts home page">
+      <created>1579899079321</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579899079321</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implemented edit and clear functionality to contacts and contacts form">
+      <created>1579899675154</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1579899675154</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +228,14 @@
     <MESSAGE value="Implements Home and About pages, adds a navbar element and connects routes between the two" />
     <MESSAGE value="Implements Home and About pages, adds a navbar element" />
     <MESSAGE value="node modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="node modules" />
+    <MESSAGE value="Styled contact pages" />
+    <MESSAGE value="basic additions to gitignore" />
+    <MESSAGE value="Integrates a form for adding contacts to the home page" />
+    <MESSAGE value="Implementes a contactReducer file" />
+    <MESSAGE value="Integrated addContact function to the contact state file" />
+    <MESSAGE value="Imports contactForm to home file" />
+    <MESSAGE value="Integrated Delete functionality for contacts home page" />
+    <MESSAGE value="Implemented edit and clear functionality to contacts and contacts form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented edit and clear functionality to contacts and contacts form" />
   </component>
 </project>
