@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a14a0a84-f362-476f-9f1f-f7c0bdec0e6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactFilter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/contacts/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/pages/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/contact/ContactState.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/contact/contactReducer.js" afterDir="false" />
     </list>
@@ -77,7 +79,7 @@
       <updated>1579637631830</updated>
       <workItem from="1579637634030" duration="12102000" />
       <workItem from="1579723437783" duration="11686000" />
-      <workItem from="1579890959234" duration="4955000" />
+      <workItem from="1579890959234" duration="6269000" />
     </task>
     <task id="LOCAL-00001" summary="adds .idea to gitignore">
       <created>1579641020190</created>
@@ -198,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579899675154</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Implemented edit, clear, set, update functionality to contacts and contacts form">
+      <created>1579900559216</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1579900559216</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +245,7 @@
     <MESSAGE value="Imports contactForm to home file" />
     <MESSAGE value="Integrated Delete functionality for contacts home page" />
     <MESSAGE value="Implemented edit and clear functionality to contacts and contacts form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented edit and clear functionality to contacts and contacts form" />
+    <MESSAGE value="Implemented edit, clear, set, update functionality to contacts and contacts form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented edit, clear, set, update functionality to contacts and contacts form" />
   </component>
 </project>
