@@ -4,6 +4,8 @@
     <list default="true" id="a14a0a84-f362-476f-9f1f-f7c0bdec0e6c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/auth/AuthState.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/auth/AuthState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/auth/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/auth/authReducer.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -264,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579975867954</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Adds alerts and requirements to form fields for register">
+      <created>1579976119378</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1579976119378</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +293,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Integrates hash passwords and the register route" />
     <MESSAGE value="Creates Json webtoken and authenticates the routes" />
     <MESSAGE value="Integrates middleware and protects private routes" />
     <MESSAGE value="Integrates Contact model and get contacts routes to application" />
@@ -309,6 +317,7 @@
     <MESSAGE value="Adds alert reducer and creates Alerts.js in the layout directory of components, site still working." />
     <MESSAGE value="Adds alerts to main app file. page still working" />
     <MESSAGE value="imports AlertContext into the register file and creates if statement, no issues for site." />
-    <option name="LAST_COMMIT_MESSAGE" value="imports AlertContext into the register file and creates if statement, no issues for site." />
+    <MESSAGE value="Adds alerts and requirements to form fields for register" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds alerts and requirements to form fields for register" />
   </component>
 </project>
