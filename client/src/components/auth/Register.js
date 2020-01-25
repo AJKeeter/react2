@@ -22,7 +22,7 @@ const Register = () => {
             <h1>
                 Account <span className='text-primary'>Register</span>
             </h1>
-            <form onSubmit={onsubmit} >
+            <form onSubmit={onSubmit} >
                 <div className='form-group'>
                     <label htmlFor='name' >Name</label>
                     <input type='text' name='name' value={name} onChange={onChange} />
